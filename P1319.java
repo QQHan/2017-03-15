@@ -20,9 +20,9 @@ public class P1319 {
 				}
 			}
 			if (b.contains(s)) {
-				cout.println("YES");
+				cout.println("Yes");
 			} else {
-				cout.println("NO");
+				cout.println("No");
 			}
 		}
 		cin.close();

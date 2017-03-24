@@ -19,7 +19,7 @@ public class P1202 {
 			else{
 				cout.println("No Answer");
 			}
-		}
+		} 
 		cin.close();
 		cout.close();
 	}

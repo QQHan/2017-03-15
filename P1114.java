@@ -7,11 +7,11 @@ public class P1114 {
     static long[]a=new long[35];
     public static long list(int n){
     	long b;
-    	if(n==0)
+    	if(n==1)
     		b=3;
-    	else if(n==1)
-    		b=4;
     	else if(n==2)
+    		b=4;
+    	else if(n==3)
     		b=5;
     	else
     		b=list(n-1)+list(n-2)+list(n-3);
